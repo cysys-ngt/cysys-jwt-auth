@@ -603,6 +603,7 @@ describe('API Tests', () => {
                     done();
                 });
         });
+
         it("Get Route Responds with a list of 2 trusts", function (done) {
             let atoken = 'Bearer ' + admin_token;
             supertest
@@ -765,6 +766,7 @@ describe('API Tests', () => {
                 .expect({message: 'Trusts Deleted'})
                 .end(done);
         });
+
         it("Verify Trusts Deleted", function (done) {
             let atoken = 'Bearer ' + admin_token;
             supertest

@@ -18,7 +18,7 @@ module.exports = () =>{
 
     logger.applog.error = (param) => {
         //console.error(param);
-    }
+    };
 
     return logger;
 

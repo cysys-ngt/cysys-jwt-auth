@@ -6,7 +6,7 @@
     "logName": "app.log"
   },
   "Databases": {
-    "authDB": "./test/data/auth_db",
+    "authDB": "./test/data/auth.db",
     "trustedDB": "./test/data/trusted.db",
     "configDB": "./test/data/config.db",
     "refreshTokenDB": "./test/data/refresh_token_db",
